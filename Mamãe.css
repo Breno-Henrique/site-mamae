@@ -1,0 +1,64 @@
+h2{
+    position: absolute;
+  top: 30%;
+  left: 30%;
+  text-align: center;
+  margin-right: 5%;
+}
+
+
+body {
+    height: 100vh;
+ 
+    background: linear-gradient(to right, #c4aed3, #4f038d);
+
+    margin-left: 1%;
+    margin-top: 2%;
+  }
+
+  img{
+    border-radius: 5%;
+   
+  }
+
+h1{
+    position: absolute;
+    top: 5%;
+    left: 48%;  
+
+    
+   }
+  
+   button{
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    top: -13px;
+    background-color: #7537a1;
+    color: #000000;
+    
+   }
+
+    .animar {
+  animation: chegadaBalanço 1.5s ease-out forwards;
+}
+
+/* Animação com efeito de chegada e balanço */
+@keyframes chegadaBalanço {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(20px);
+  }
+  80% {
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
